@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_activity_background"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".activities.Register_activity">
+
+    <ImageView
+        android:id="@+id/img_Register"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ic_account_circle_black_24dp"
+
+
+        >
+
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/FirstName_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textAlignment="viewStart"
+        android:textSize="20sp">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/LastName_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard"
+        android:hint="Last Name"
+
+        android:textSize="20sp"
+
+
+        >
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/email_id_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:hint="@string/prompt_email"
+        android:textAlignment="viewStart"
+        android:textSize="20sp">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/password_id_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+
+
+        >
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button_register_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/standard"
+        android:background="@color/lightBlue"
+        android:text="register">
+
+
+    </Button>
+
+
+</LinearLayout>

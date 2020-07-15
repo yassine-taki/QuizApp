@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.score_activity"></activity>
+        <activity android:name=".activities.start_Activity" />
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.question10" />
+        <activity android:name=".activities.question9" />
+        <activity android:name=".activities.question8" />
+        <activity android:name=".activities.question7" />
+        <activity android:name=".activities.question6" />
+        <activity android:name=".activities.question5" />
+        <activity android:name=".activities.question4" />
+        <activity android:name=".activities.question3" />
+        <activity android:name=".activities.question2" />
+        <activity android:name=".activities.question1" />
+        <activity android:name=".activities.Register_activity" />
+        <activity android:name=".activities.login" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

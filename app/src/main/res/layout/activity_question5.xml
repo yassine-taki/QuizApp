@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightMauve"
+    android:orientation="vertical"
+    tools:context=".activities.question5"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_gravity="fill_horizontal"
+        android:paddingBottom="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/question5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pour être en règle dans cette situation, les combinaisons de symboles que je peux voir allumés sur mon tableau de bord sont:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/RG_q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/radio_design"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/RB_q5_ch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_design"
+            android:text="A-C-D"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/RB_q5_ch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_design"
+            android:text="B-C-D"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button_id_q5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/standard"
+        android:background="@color/lightBlue"
+        android:text="Suivant" />
+
+
+</LinearLayout>

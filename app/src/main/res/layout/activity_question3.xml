@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.question3"
+    android:background="@color/lightMauve"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="fill_horizontal"
+        android:paddingBottom="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/question3"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pour tourner à droite à ce rond-point:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/RG_q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/radio_design">
+
+
+        <RadioButton
+            android:id="@+id/RB_q3_ch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="je suis bien placé"
+            android:textStyle="bold"
+            android:background="@drawable/radio_design"
+            />
+
+        <RadioButton
+            android:id="@+id/RB_q3_ch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="je ne suis pas bien placé"
+            android:textStyle="bold"
+            android:background="@drawable/radio_design"
+            />
+
+
+        <RadioButton
+            android:id="@+id/RB_q3_ch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="j’accélère pour tourner derrière le camion rouge"
+            android:textStyle="bold"
+            android:background="@drawable/radio_design"
+            />
+
+        <RadioButton
+            android:id="@+id/RB_q3_ch4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="je dois faire un tour complet pour préparer ma sortie"
+            android:textStyle="bold"
+            android:background="@drawable/radio_design"
+            />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button_id_q3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/standard"
+        android:background="@color/lightBlue"
+        android:text="Suivant"/>
+
+
+</LinearLayout>

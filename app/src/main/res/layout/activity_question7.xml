@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightMauve"
+    android:orientation="vertical"
+    tools:context=".activities.question7"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="fill_horizontal"
+        android:paddingBottom="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/question7" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pour conduire une voiture je dois avoir une acuité visuelle minimale pour l’ensemble des 2 yeux de:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <RadioGroup
+
+        android:id="@+id/RG_q7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/radio_design"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/RB_q7_ch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_design"
+            android:text="4/10 èmes"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/RB_q7_ch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_design"
+            android:text="5/10 èmes"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/RB_q7_ch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_design"
+            android:text="6/10 èmes"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/RB_q7_ch4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_design"
+            android:text="7/10 èmes"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button_id_q7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/standard"
+        android:background="@color/lightBlue"
+        android:text="Suivant" />
+
+
+</LinearLayout>

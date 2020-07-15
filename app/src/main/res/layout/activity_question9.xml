@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightMauve"
+    android:orientation="vertical"
+    tools:context=".activities.question9"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="fill_horizontal"
+        android:paddingBottom="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/question9" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quelle zone comporte le plus grand danger:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/RG_q9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/radio_design"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/RB_q9_ch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_design"
+            android:text="zone 1 "
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/RB_q9_ch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_design"
+            android:text="zone 2"
+            android:textStyle="bold" />
+
+        <RadioButton
+
+            android:id="@+id/RB_q9_ch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_design"
+            android:text="zone 3"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button_id_q9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/standard"
+        android:background="@color/lightBlue"
+        android:text="Suivant" />
+
+
+</LinearLayout>
